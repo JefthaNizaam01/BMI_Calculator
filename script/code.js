@@ -1,6 +1,6 @@
-let btn = document.getElementById("calculate");
+let button = document.getElementById("calculate");
 
-btn.addEventListener("click", function () {
+button.addEventListener("click", function () {
   let height = document.querySelector("#height").value;
   let weight = document.querySelector("#weight").value;
 
